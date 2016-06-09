@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+
+*{
+	box-sizing: border-box;
+	/*descuenta del width y height, para q el elemento no mida mas por el border y el padding*/
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	margin: 0; 
+}
+
+/*resets*/
+
+/* agrupacion de selectores */	
+
+ul, ol{
+	list-style: none; /*elimina la viñeta*/
+	margin: 0;
+	padding: 0; 
+}
+
+figure{
+	margin: 0;
+}
+
+.main-header{
+	width: 1200px;
+	margin: auto;
+	padding: 20px 0;
+	border: solid 1px red;
+}
+
+.logo{
+	float: left;
+	border: solid 1px green;
+}
+
+.main-nav{
+	float: right;
+	border: solid 1px red;
+	margin: 8px 0 0 15px;
+}
+
+/*esto lo agregue yo*/
+.main-nav li a{
+	text-transform: capitalize;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/*slector descendiente*/
+.main-nav li{
+	float:  left;
+	padding: 10px;
+}
+
+.cleaner{
+	clear: both;	
+}
+
+#banner{		
+	background: url(../images/indexbanner-bg3.jpg) center top no-repeat;
+	background-size: cover;
+}
+
+.container{
+	width: 1200px;
+	margin: auto;
+}
+
+.banner-title{
+	font-size: 50px;
+	color: #fff;
+	padding-top: 150px;
+	margin:0;
+}
+
+.banner-parrafo{
+	font-size: 20px;
+	color:#fff;
+}
+
+.register{
+	background-color: #fff
+}
+
+.register{
+background-color: #06b4f2;
+position: relative;
+top: 30px; 
+}
+
+.register input{
+	width: 1000px;
+	height: 60px;
+	font-size: 16px;
+	font-family: inherit;
+}
+
+.register button{
+	border: none;
+	background-color: #06b4f2;
+	width: 195px;
+	height: 60px;
+	color: #fff;
+	font-family: inherit;
+	font-size: 16px;
+	float: right;
+}
+
+.productos{
+	border: dashed 1px green;
+	width: 300px;
+	text-align: center;
+	float: left;
+	margin-top: 80px;
+}

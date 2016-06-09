@@ -2,79 +2,253 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Maquetación básica</title>
+	<title>Maquetación Básica</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
-	<header>
-		<figure>
-			<img src="" alt="">
-			<figcaption>
-				
-			</figcaption>
+	<header class="main-header">
+		<figure class="logo">
+			<img src="images/header-logo.png" alt="logo Hostro">
+			<figcaption>Logo Hostro Hosting Services</figcaption>
 		</figure>
 
-		<nav>
-			<ul type="circle">
-				<li><a href="index.html" target="_blank">home</a></li>
-				<li><a href="#productos">Productos</a></li>
-				<li><a href="contact.html">contact</a></li>
-				<li><a href="http://coderhouse.io" target="_new">CoderHouse</a></li>
+		<nav class="main-nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="contact.html">Contact</a></li>	
 			</ul>
 		</nav>
+
+		<div class="cleaner"></div>
 
 	</header>
 
 	<!-- banner -->
+	<div id="banner">
+		<div class="container">
+			<h2 class="banner-title">Regular Updates</h2>
+			<p class="banner-parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Temporibus dolores officiis.</p>
 
-	<div>
-		<h2>Regular Updates</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, laboriosam <br><br>maiores optio quod, aperiam omnis ullam delectus ipsum excepturi et suscipit.</p>
-<!-- esto creo q se cambiaria xq es un buscador y dice email... preguntar!!!! -->
-		<div> 
-			<form action=""></form>
-			<input type="email" placeholder="Enter your domain name and hit enter">
-			<button type="submit">Search</button>
+			<form action="" class="register">
+					<input type="email" placeholder="Enter your domain name and hit enter">
+					<button type="submit">Search</button>
+			</form>
 		</div>
+	</div>	
 
-	</div>
 
-<!-- productos destacados -->
-	<section id="productos">
-		<article>
+
+	<!-- productos-destacados -->
+	<section class="container">
+		<article class="productos">
 			<figure>
-				<img src="" alt="">
+				<img src="images/wid1.png" alt="speed server">
 			</figure>
-			<h4>speed services</h4>
-			<p>Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipisicing elit. Ipsam illo deserunt repudiandae cum obcaecati pariatur temporibus cumque facere quas.</p>
+			<h4>speed servers</h4>
+			<p>Lorem <strong>ipsum dolor</strong> sit amet, consectetur adipisicing elit. Voluptatem omnis numquam, ipsa facere doloremque.</p>
 		</article>
 
-		<article>
+		<article class="productos">
 			<figure>
-				<img src="" alt="">
+				<img src="images/wid2.png" alt="descripcion">
 			</figure>
-			<h4>hostro server</h4>
-			<p>Lorem ipsum dolor sit amet, <b>consectetur adipisicing</b> elit. Temporibus corporis ullam quo, atque dolor, neque. </p>
+			<h4>hostro services</h4>
+			<p>Lorem ipsum <em>dolor sit amet, consectetur adipisicing elit</em>. Voluptatem omnis numquam, ipsa facere doloremque.</p>
 		</article>
 
-		<article>
+		<article class="productos">
 			<figure>
-				<img src="" alt="">
+				<img src="images/wid3.png" alt="descripcion">
 			</figure>
 			<h4>live support</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur <i>adipisicing elit</i>. Esse ab veniam, dolorem repudiandae culpa fugit illum asperiores excepturi incidunt nisi corporis. </p>
+			<p>Lorem ipsum <b>dolor sit amet, consectetur adipisicing elit</b>. Voluptatem omnis numquam, ipsa facere doloremque.</p>
+		</article>
+
+		<article class="productos">
+			<figure>
+				<img src="images/wid4.png" alt="descripcion">
+			</figure>
+			<h4>get domain name</h4>
+			<p>Lorem ipsum <i>dolor sit amet</i>, consectetur adipisicing elit. Voluptatem omnis numquam, ipsa facere doloremque.</p>
+		</article>
+	</section>
+
+	<div class="cleaner"></div>
+
+
+	<!-- services -->
+	<section class="container">
+		<h2>Hostro Services</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+		<article>
+			<ul>
+				<li>
+					<h3>Retina Ready</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto temporibus consectetur maxime placeat et in sequi animi distinctio.</p>
+					<img src="images/ser1.png" alt="retina ready">
+				</li>
+				<li>
+					<h3>Easy Customize</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto temporibus consectetur maxime placeat et in sequi animi distinctio.</p>
+					<img src="images/ser2.png" alt="easy customize">
+				<li>
+					<h3>Pixel Perfect</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto temporibus consectetur maxime placeat et in sequi animi distinctio.</p>
+					<img src="images/ser3.png" alt="pixel perfect">
+				</li>
+			</ul>
 		</article>
 
 		<article>
-			<figure>
-				<img src="" alt="">
-			</figure>
-			<h4>get domain name</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur <em>adipisicing elit</em>. Suscipit beatae magnam, expedita corporis, atque qui eos aliquam accusamus autem rerum inventore. </p>
+			<img src="images/iphone2.png" alt="Celular">
 		</article>
-
+		
+		<article>
+			<ul>
+			<li>
+					<h3>Unlimited Colors</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto temporibus consectetur maxime placeat et in sequi animi distinctio.</p>
+					<img src="images/ser4.png" alt="retina ready">
+				</li>
+				<li>
+					<h3>Features</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto temporibus consectetur maxime placeat et in sequi animi distinctio.</p>
+					<img src="images/ser5.png" alt="easy customize">
+				<li>
+					<h3>Support Today</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto temporibus consectetur maxime placeat et in sequi animi distinctio.</p>
+					<img src="images/ser6.png" alt="pixel perfect">
+				</li>
+			</ul>
+		</article>
 	</section>
+
+	<!-- prices -->
+	<section>
+		<article class="container">
+			<h2>Pricing Tables</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis non ab deleniti deserunt cum.</p>
+
+			<article>
+				<h4>Small Package</h4>
+				<h2><sup>$</sup>15<sup>.9</sup></h2>
+				<p>/month</p>
+				<table>
+					<tr>
+						<td>Hard Drive, GB</td>
+						<td>2</td>
+					</tr>
+					<tr>
+						<td>Transfer, GB</td>
+						<td>1</td>
+					</tr>
+					<tr>
+						<td>Data bases</td>
+						<td>1</td>
+					</tr>
+					<tr>
+						<td>Dashboards</td>
+						<td>1</td>
+					</tr>
+				</table>
+				<a href="#">Select plan</a>
+			</article>
+
+			<article>
+				<h4>Normal Package</h4>
+				<h2><sup>$</sup>45<sup>.9</sup></h2>
+				<p>/month</p>
+				<table>
+					<tr>
+						<td>Hard Drive, GB</td>
+						<td>5</td>
+					</tr>
+					<tr>
+						<td>Transfer, GB</td>
+						<td>2</td>
+					</tr>
+					<tr>
+						<td>Data bases</td>
+						<td>2</td>
+					</tr>
+					<tr>
+						<td>Dashboards</td>
+						<td>2</td>
+					</tr>
+				</table>
+				<a href="#">Select plan</a>
+			</article>
+
+			<article>
+				<h4>Big Package</h4>
+				<h2><sup>$</sup>95<sup>.9</sup></h2>
+				<p>/month</p>
+				<table>
+					<tr>
+						<td>Hard Drive, GB</td>
+						<td>12</td>
+					</tr>
+					<tr>
+						<td>Transfer, GB</td>
+						<td>5</td>
+					</tr>
+					<tr>
+						<td>Data bases</td>
+						<td>5</td>
+					</tr>
+					<tr>
+						<td>Dashboards</td>
+						<td>5</td>
+					</tr>
+				</table>
+				<a href="#">Select plan</a>
+			</article>
+
+			<article>
+				<h4>Best Package</h4>
+				<h2><sup>$</sup>115<sup>.9</sup></h2>
+				<p>/month</p>
+				<table>
+					<tr>
+						<td>Hard Drive, GB</td>
+						<td>20</td>
+					</tr>
+					<tr>
+						<td>Transfer, GB</td>
+						<td>10</td>
+					</tr>
+					<tr>
+						<td>Data bases</td>
+						<td>10</td>
+					</tr>
+					<tr>
+						<td>Dashboards</td>
+						<td>10</td>
+					</tr>
+				</table>
+				<a href="#">Select plan</a>
+			</article>
+		</article>
+	</section>
+
+
+	<!-- footer -->
+	<footer>
+		<h3>Hosting use <span>500,000</span> happy customers. Want to see services?</h3>
+		<article>
+			<article class="container">
+				<p>© 2015 Coderland. All right reserved.</p>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="contact.html">Contact</a></li>	
+					</ul>
+				</nav>
+			</article>
+		</article>
+	</footer>
 
 </body>
 </html>
